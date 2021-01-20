@@ -12,6 +12,7 @@ function makeid(length) {
   }
   return result
 }
+
 const serverId = makeid(8)
 async function start () {
   const startDate = new Date()
